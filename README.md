@@ -11,7 +11,7 @@ If you are using pathogen:
 
     git clone https://github.com/saghul/vim-colortoggle.git ~/.vim/bundle/vim-colortoggle
 
-If you are not using any plugins manager, just copy the folder plugin into you
+If you are not using any plugins manager, just copy the folder plugin into your
 ~/.vim directory
 
 Usage
