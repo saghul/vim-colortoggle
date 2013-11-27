@@ -1,10 +1,21 @@
 Color toggling plugin for ViM
------------------------------
+=============================
 
-This plugin will alow you to toggle the background and colorcheme
+This plugin will allow you to toggle the background and colorscheme
 together with a single key.
 
-Usage:
+Installation
+------------
+
+If you are using pathogen:
+
+    git clone https://github.com/saghul/vim-colortoggle.git ~/.vim/bundle/vim-colortoggle
+
+If you are not using any plugins manager, just copy the folder plugin into you
+~/.vim directory
+
+Usage
+-----
 
 Define global variables with your default background choice and color
 schemes for dark and light backgrounds. Example:
@@ -17,6 +28,9 @@ Then map the key you want to the ToggleBg function:
 
     map <silent><F11> :ToggleBg<CR>
 
+Extra
+-----
+
 If you want the current value to be saved and restored you need to tell
 viminfo to store global variables, by appending the ! symbol:
 
@@ -27,5 +41,4 @@ viminfo to store global variables, by appending the ! symbol:
 
 This is my first plugin for ViM, hope you like it :-)
 
-Author: Saúl Ibarra Corretgé - saghul@gmail.com
-
+Saúl Ibarra Corretgé <saghul@gmail.com>
